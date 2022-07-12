@@ -137,21 +137,21 @@ if "amzn" in platform():
     DEBUG = False
     ALLOWED_HOSTS = [".elasticbeanstalk.com", ".eensy.cc", ".admin.eensy.cc"]
 
-    # EC2_PRIVATE_IP = None
-    # try:
-    #     security_token = requests.put(
-    #         'http://169.254.169.254/latest/api/token',
-    #         headers={'X-aws-ec2-metadata-token-ttl-seconds': '60'}).text
+    EC2_PRIVATE_IP = None
+    try:
+        security_token = requests.put(
+            'http://169.254.169.254/latest/api/token',
+            headers={'X-aws-ec2-metadata-token-ttl-seconds': '60'}).text
 
-    #     EC2_PRIVATE_IP = requests.get(
-    #         'http://169.254.169.254/latest/meta-data/local-ipv4',
-    #         headers={'X-aws-ec2-metadata-token': security_token},
-    #         timeout=0.01).text
-    # except requests.exceptions.RequestException:
-    #     pass
+        EC2_PRIVATE_IP = requests.get(
+            'http://169.254.169.254/latest/meta-data/local-ipv4',
+            headers={'X-aws-ec2-metadata-token': security_token},
+            timeout=0.01).text
+    except requests.exceptions.RequestException:
+        pass
 
-    # if EC2_PRIVATE_IP:
-    #     ALLOWED_HOSTS.append(EC2_PRIVATE_IP)
+    if EC2_PRIVATE_IP:
+        ALLOWED_HOSTS.append(EC2_PRIVATE_IP)
 
 else:
     STATIC_URL = 'static/'
