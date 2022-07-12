@@ -106,7 +106,7 @@ if "amzn" in platform():
     STATIC_URL = '/static/'
 
     ENV_VAR = json.loads(os.environ["ENV_VAR"])
-    for key, value in ENV_VAR:
+    for key, value in ENV_VAR.items():
         os.environ[key] = value
 
     # Databases
