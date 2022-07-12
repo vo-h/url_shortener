@@ -1,0 +1,35 @@
+name: Deploy to AWS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+
+  deploy_to_aws:
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+        
+      - name: Check out last passing commit
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Expose environment variables and deploy
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        run: |
+          export AWS_CONFIG_FILE=./config
+          echo [profile eb-cli] >> ./config
+          echo "aws_access_key_id = $AWS_ACCESS_KEY_ID" >> ./config
+          echo "aws_secret_access_key = $AWS_SECRET_ACCESS_KEY" >> ./config
+          eb deploy url-shortener-dev
