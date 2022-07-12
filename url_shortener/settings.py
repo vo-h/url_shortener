@@ -16,6 +16,7 @@ from platform import platform
 import dotenv
 import json
 import requests
+import subprocess
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -105,28 +106,28 @@ if "amzn" in platform():
     STATIC_ROOT = BASE_DIR / "static"
     STATIC_URL = '/static/'
 
-    try:
-        ENV_VAR = json.loads(os.environ["ENV_VAR"])
-        for key, value in ENV_VAR.items():
-            os.environ[key] = value
-        # Databases
-        DATABASES = {
-            'default': {
-                'ENGINE': 'django.db.backends.postgresql',
-                'NAME': os.environ['RDS_DB_NAME'],
-                'USER': os.environ['RDS_USERNAME'],
-                'PASSWORD': os.environ['RDS_PASSWORD'],
-                'HOST': os.environ['RDS_HOSTNAME'],
-                'PORT': os.environ['RDS_PORT'],
-            }
+    command="/opt/elasticbeanstalk/bin/get-config environment"
+    process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
+    output, error = process.communicate()
+
+    ENV_VAR = json.loads(output)
+    for key, value in ENV_VAR.items():
+        os.environ[key] = value
+
+    # Databases
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql',
+            'NAME': os.environ['RDS_DB_NAME'],
+            'USER': os.environ['RDS_USERNAME'],
+            'PASSWORD': os.environ['RDS_PASSWORD'],
+            'HOST': os.environ['RDS_HOSTNAME'],
+            'PORT': os.environ['RDS_PORT'],
         }
+    }
 
-
-        # Security settings
-        SECRET_KEY = os.environ['SECRET_KEY']
-    except KeyError:
-        print("ENV_VAR not found.")
-
+    # Security settings
+    SECRET_KEY = os.environ['SECRET_KEY']
     SECURE_HSTS_INCLUDE_SUBDOMAINS = True
     SECURE_HSTS_SECONDS = 63072000
     SECURE_SSL_REDIRECT = True
