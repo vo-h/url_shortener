@@ -105,25 +105,28 @@ if "amzn" in platform():
     STATIC_ROOT = BASE_DIR / "static"
     STATIC_URL = '/static/'
 
-    ENV_VAR = json.loads(os.environ["ENV_VAR"])
-    for key, value in ENV_VAR.items():
-        os.environ[key] = value
-
-    # Databases
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql',
-            'NAME': os.environ['RDS_DB_NAME'],
-            'USER': os.environ['RDS_USERNAME'],
-            'PASSWORD': os.environ['RDS_PASSWORD'],
-            'HOST': os.environ['RDS_HOSTNAME'],
-            'PORT': os.environ['RDS_PORT'],
+    try:
+        ENV_VAR = json.loads(os.environ["ENV_VAR"])
+        for key, value in ENV_VAR.items():
+            os.environ[key] = value
+        # Databases
+        DATABASES = {
+            'default': {
+                'ENGINE': 'django.db.backends.postgresql',
+                'NAME': os.environ['RDS_DB_NAME'],
+                'USER': os.environ['RDS_USERNAME'],
+                'PASSWORD': os.environ['RDS_PASSWORD'],
+                'HOST': os.environ['RDS_HOSTNAME'],
+                'PORT': os.environ['RDS_PORT'],
+            }
         }
-    }
 
 
-    # Security settings
-    SECRET_KEY = os.environ['SECRET_KEY']
+        # Security settings
+        SECRET_KEY = os.environ['SECRET_KEY']
+    except KeyError:
+        print("ENV_VAR not found.")
+
     SECURE_HSTS_INCLUDE_SUBDOMAINS = True
     SECURE_HSTS_SECONDS = 63072000
     SECURE_SSL_REDIRECT = True
@@ -133,21 +136,21 @@ if "amzn" in platform():
     DEBUG = False
     ALLOWED_HOSTS = [".elasticbeanstalk.com", ".eensy.cc", ".admin.eensy.cc"]
 
-    EC2_PRIVATE_IP = None
-    try:
-        security_token = requests.put(
-            'http://169.254.169.254/latest/api/token',
-            headers={'X-aws-ec2-metadata-token-ttl-seconds': '60'}).text
+    # EC2_PRIVATE_IP = None
+    # try:
+    #     security_token = requests.put(
+    #         'http://169.254.169.254/latest/api/token',
+    #         headers={'X-aws-ec2-metadata-token-ttl-seconds': '60'}).text
 
-        EC2_PRIVATE_IP = requests.get(
-            'http://169.254.169.254/latest/meta-data/local-ipv4',
-            headers={'X-aws-ec2-metadata-token': security_token},
-            timeout=0.01).text
-    except requests.exceptions.RequestException:
-        pass
+    #     EC2_PRIVATE_IP = requests.get(
+    #         'http://169.254.169.254/latest/meta-data/local-ipv4',
+    #         headers={'X-aws-ec2-metadata-token': security_token},
+    #         timeout=0.01).text
+    # except requests.exceptions.RequestException:
+    #     pass
 
-    if EC2_PRIVATE_IP:
-        ALLOWED_HOSTS.append(EC2_PRIVATE_IP)
+    # if EC2_PRIVATE_IP:
+    #     ALLOWED_HOSTS.append(EC2_PRIVATE_IP)
 
 else:
     STATIC_URL = 'static/'
