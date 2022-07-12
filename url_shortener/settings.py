@@ -17,6 +17,7 @@ import dotenv
 import json
 import requests
 import subprocess
+import mimetypes
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -137,6 +138,7 @@ if "amzn" in platform():
     DEBUG = False
     ALLOWED_HOSTS = [".elasticbeanstalk.com", ".eensy.cc", ".admin.eensy.cc"]
 
+    # Get AWS to stop complaining
     EC2_PRIVATE_IP = None
     try:
         security_token = requests.put(
@@ -152,6 +154,10 @@ if "amzn" in platform():
 
     if EC2_PRIVATE_IP:
         ALLOWED_HOSTS.append(EC2_PRIVATE_IP)
+
+    # Fix css problems
+    mimetypes.add_type("text/css", ".css", True)
+    mimetypes.add_type("text/html", ".html", True)
 
 else:
     STATIC_URL = 'static/'
