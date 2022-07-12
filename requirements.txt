@@ -2,4 +2,4 @@ django
 psycopg2-binary
 django-hosts
 awsebcli
-dotenv
+python-dotenv
