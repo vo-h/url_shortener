@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django_hosts.middleware.HostsRequestMiddleware',
     'django.middleware.security.SecurityMiddleware',
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -109,9 +110,6 @@ if "amzn" in platform():
 
     STATIC_ROOT = BASE_DIR / "static"
     STATIC_URL = '/static/'
-    STATICFILES_DIRS = [
-        BASE_DIR / "static",
-    ] 
 
     command="/opt/elasticbeanstalk/bin/get-config environment"
     process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
@@ -160,11 +158,6 @@ if "amzn" in platform():
 
     if EC2_PRIVATE_IP:
         ALLOWED_HOSTS.append(EC2_PRIVATE_IP)
-
-    # Fix css problems
-    mimetypes.add_type("text/css", ".css", True)
-    mimetypes.add_type("text/html", ".html", True)
-    mimetypes.add_type("text/html", ".css", True)
 
 else:
     STATIC_URL = 'static/'
