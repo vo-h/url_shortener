@@ -109,6 +109,9 @@ if "amzn" in platform():
 
     STATIC_ROOT = BASE_DIR / "static"
     STATIC_URL = '/static/'
+    STATICFILES_DIRS = [
+        BASE_DIR / "static",
+    ] 
 
     command="/opt/elasticbeanstalk/bin/get-config environment"
     process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
