@@ -104,6 +104,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 if "amzn" in platform():
+
+    DEBUG=False
+
     STATIC_ROOT = BASE_DIR / "static"
     STATIC_URL = '/static/'
 
@@ -158,6 +161,7 @@ if "amzn" in platform():
     # Fix css problems
     mimetypes.add_type("text/css", ".css", True)
     mimetypes.add_type("text/html", ".html", True)
+    mimetypes.add_type("text/html", ".css", True)
 
 else:
     STATIC_URL = 'static/'
