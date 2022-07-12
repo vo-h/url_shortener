@@ -14,6 +14,7 @@ from pathlib import Path
 import os
 from platform import platform
 import dotenv
+import json
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -102,6 +103,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 if "amzn" in platform():
     STATIC_ROOT = BASE_DIR / "static"
     STATIC_URL = '/static/'
+
+    ENV_VAR = json.loads(os.environ["ENV_VAR"])
+    for key, value in ENV_VAR:
+        os.environ[key] = value
 
     # Databases
     DATABASES = {

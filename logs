@@ -1,323 +1,108 @@
 Retrieving logs...
 ============= i-0245217b50446cca3 ==============
 ----------------------------------------
-/var/log/web.stdout.log
-----------------------------------------
-Jul  8 21:45:55 ip-172-31-29-161 web: [2022-07-08 21:45:55 +0000] [20709] [INFO] Using worker: gthread
-Jul  8 21:45:55 ip-172-31-29-161 web: [2022-07-08 21:45:55 +0000] [20766] [INFO] Booting worker with pid: 20766
-Jul  8 21:50:44 ip-172-31-29-161 web: [2022-07-08 21:50:44 +0000] [20709] [INFO] Handling signal: term
-Jul  8 21:50:45 ip-172-31-29-161 web: [2022-07-08 14:50:45 -0700] [20766] [INFO] Worker exiting (pid: 20766)
-Jul  8 21:50:45 ip-172-31-29-161 web: [2022-07-08 21:50:45 +0000] [20709] [INFO] Shutting down: Master
-Jul  8 21:50:45 ip-172-31-29-161 web: [2022-07-08 21:50:45 +0000] [21402] [INFO] Starting gunicorn 20.1.0
-Jul  8 21:50:45 ip-172-31-29-161 web: [2022-07-08 21:50:45 +0000] [21402] [INFO] Listening at: http://127.0.0.1:8000 (21402)
-Jul  8 21:50:45 ip-172-31-29-161 web: [2022-07-08 21:50:45 +0000] [21402] [INFO] Using worker: gthread
-Jul  8 21:50:45 ip-172-31-29-161 web: [2022-07-08 21:50:45 +0000] [21457] [INFO] Booting worker with pid: 21457
-Jul  8 22:23:29 ip-172-31-29-161 web: [2022-07-08 22:23:29 +0000] [21402] [INFO] Handling signal: term
-Jul  8 22:23:30 ip-172-31-29-161 web: [2022-07-08 15:23:30 -0700] [21457] [INFO] Worker exiting (pid: 21457)
-Jul  8 22:23:30 ip-172-31-29-161 web: [2022-07-08 22:23:30 +0000] [21402] [INFO] Shutting down: Master
-Jul  8 22:23:31 ip-172-31-29-161 web: [2022-07-08 22:23:31 +0000] [23785] [INFO] Starting gunicorn 20.1.0
-Jul  8 22:23:31 ip-172-31-29-161 web: [2022-07-08 22:23:31 +0000] [23785] [INFO] Listening at: http://127.0.0.1:8000 (23785)
-Jul  8 22:23:31 ip-172-31-29-161 web: [2022-07-08 22:23:31 +0000] [23785] [INFO] Using worker: gthread
-Jul  8 22:23:31 ip-172-31-29-161 web: [2022-07-08 22:23:31 +0000] [23840] [INFO] Booting worker with pid: 23840
-Jul  9 01:09:54 ip-172-31-29-161 web: [2022-07-09 01:09:54 +0000] [23785] [INFO] Handling signal: term
-Jul  9 01:09:55 ip-172-31-29-161 web: [2022-07-08 18:09:55 -0700] [23840] [INFO] Worker exiting (pid: 23840)
-Jul  9 01:09:55 ip-172-31-29-161 web: [2022-07-09 01:09:55 +0000] [23785] [INFO] Shutting down: Master
-Jul  9 01:09:55 ip-172-31-29-161 web: [2022-07-09 01:09:55 +0000] [1709] [INFO] Starting gunicorn 20.1.0
-Jul  9 01:09:55 ip-172-31-29-161 web: [2022-07-09 01:09:55 +0000] [1709] [INFO] Listening at: http://127.0.0.1:8000 (1709)
-Jul  9 01:09:55 ip-172-31-29-161 web: [2022-07-09 01:09:55 +0000] [1709] [INFO] Using worker: gthread
-Jul  9 01:09:55 ip-172-31-29-161 web: [2022-07-09 01:09:55 +0000] [1764] [INFO] Booting worker with pid: 1764
-Jul  9 01:54:11 ip-172-31-29-161 web: [2022-07-09 01:54:11 +0000] [1709] [INFO] Handling signal: term
-Jul  9 01:54:11 ip-172-31-29-161 web: [2022-07-08 18:54:11 -0700] [1764] [INFO] Worker exiting (pid: 1764)
-Jul  9 01:54:11 ip-172-31-29-161 web: [2022-07-09 01:54:11 +0000] [1709] [INFO] Shutting down: Master
-Jul  9 01:54:12 ip-172-31-29-161 web: [2022-07-09 01:54:12 +0000] [4772] [INFO] Starting gunicorn 20.1.0
-Jul  9 01:54:12 ip-172-31-29-161 web: [2022-07-09 01:54:12 +0000] [4772] [INFO] Listening at: http://127.0.0.1:8000 (4772)
-Jul  9 01:54:12 ip-172-31-29-161 web: [2022-07-09 01:54:12 +0000] [4772] [INFO] Using worker: gthread
-Jul  9 01:54:12 ip-172-31-29-161 web: [2022-07-09 01:54:12 +0000] [4827] [INFO] Booting worker with pid: 4827
-Jul  9 02:25:11 ip-172-31-29-161 web: [2022-07-09 02:25:11 +0000] [4772] [INFO] Handling signal: term
-Jul  9 02:25:12 ip-172-31-29-161 web: [2022-07-08 19:25:12 -0700] [4827] [INFO] Worker exiting (pid: 4827)
-Jul  9 02:25:12 ip-172-31-29-161 web: [2022-07-09 02:25:12 +0000] [4772] [INFO] Shutting down: Master
-Jul  9 02:25:12 ip-172-31-29-161 web: [2022-07-09 02:25:12 +0000] [7291] [INFO] Starting gunicorn 20.1.0
-Jul  9 02:25:12 ip-172-31-29-161 web: [2022-07-09 02:25:12 +0000] [7291] [INFO] Listening at: http://127.0.0.1:8000 (7291)
-Jul  9 02:25:12 ip-172-31-29-161 web: [2022-07-09 02:25:12 +0000] [7291] [INFO] Using worker: gthread
-Jul  9 02:25:12 ip-172-31-29-161 web: [2022-07-09 02:25:12 +0000] [7346] [INFO] Booting worker with pid: 7346
-Jul 10 00:29:06 ip-172-31-29-161 web: [2022-07-10 00:29:06 +0000] [7291] [INFO] Handling signal: term
-Jul 10 00:29:06 ip-172-31-29-161 web: [2022-07-09 17:29:06 -0700] [7346] [INFO] Worker exiting (pid: 7346)
-Jul 10 00:29:06 ip-172-31-29-161 web: [2022-07-10 00:29:06 +0000] [7291] [INFO] Shutting down: Master
-Jul 10 00:29:07 ip-172-31-29-161 web: [2022-07-10 00:29:07 +0000] [22626] [INFO] Starting gunicorn 20.1.0
-Jul 10 00:29:07 ip-172-31-29-161 web: [2022-07-10 00:29:07 +0000] [22626] [INFO] Listening at: http://127.0.0.1:8000 (22626)
-Jul 10 00:29:07 ip-172-31-29-161 web: [2022-07-10 00:29:07 +0000] [22626] [INFO] Using worker: gthread
-Jul 10 00:29:07 ip-172-31-29-161 web: [2022-07-10 00:29:07 +0000] [22680] [INFO] Booting worker with pid: 22680
-Jul 10 00:38:11 ip-172-31-29-161 web: [2022-07-10 00:38:11 +0000] [22626] [INFO] Handling signal: term
-Jul 10 00:38:11 ip-172-31-29-161 web: [2022-07-09 17:38:11 -0700] [22680] [INFO] Worker exiting (pid: 22680)
-Jul 10 00:38:12 ip-172-31-29-161 web: [2022-07-10 00:38:12 +0000] [22626] [INFO] Shutting down: Master
-Jul 10 00:38:12 ip-172-31-29-161 web: [2022-07-10 00:38:12 +0000] [23566] [INFO] Starting gunicorn 20.1.0
-Jul 10 00:38:12 ip-172-31-29-161 web: [2022-07-10 00:38:12 +0000] [23566] [INFO] Listening at: http://127.0.0.1:8000 (23566)
-Jul 10 00:38:12 ip-172-31-29-161 web: [2022-07-10 00:38:12 +0000] [23566] [INFO] Using worker: gthread
-Jul 10 00:38:12 ip-172-31-29-161 web: [2022-07-10 00:38:12 +0000] [23619] [INFO] Booting worker with pid: 23619
-Jul 10 19:36:26 ip-172-31-29-161 web: [2022-07-10 19:36:26 +0000] [23566] [INFO] Handling signal: term
-Jul 10 19:36:26 ip-172-31-29-161 web: [2022-07-10 12:36:26 -0700] [23619] [INFO] Worker exiting (pid: 23619)
-Jul 10 19:36:26 ip-172-31-29-161 web: [2022-07-10 19:36:26 +0000] [23566] [INFO] Shutting down: Master
-Jul 10 19:36:27 ip-172-31-29-161 web: [2022-07-10 19:36:27 +0000] [27702] [INFO] Starting gunicorn 20.1.0
-Jul 10 19:36:27 ip-172-31-29-161 web: [2022-07-10 19:36:27 +0000] [27702] [INFO] Listening at: http://127.0.0.1:8000 (27702)
-Jul 10 19:36:27 ip-172-31-29-161 web: [2022-07-10 19:36:27 +0000] [27702] [INFO] Using worker: gthread
-Jul 10 19:36:27 ip-172-31-29-161 web: [2022-07-10 19:36:27 +0000] [27759] [INFO] Booting worker with pid: 27759
-Jul 12 02:36:18 ip-172-31-29-161 web: [2022-07-12 02:36:18 +0000] [27702] [INFO] Handling signal: term
-Jul 12 02:36:19 ip-172-31-29-161 web: [2022-07-11 19:36:19 -0700] [27759] [INFO] Worker exiting (pid: 27759)
-Jul 12 02:36:19 ip-172-31-29-161 web: [2022-07-12 02:36:19 +0000] [27702] [INFO] Shutting down: Master
-Jul 12 02:36:19 ip-172-31-29-161 web: [2022-07-12 02:36:19 +0000] [9357] [INFO] Starting gunicorn 20.1.0
-Jul 12 02:36:19 ip-172-31-29-161 web: [2022-07-12 02:36:19 +0000] [9357] [INFO] Listening at: http://127.0.0.1:8000 (9357)
-Jul 12 02:36:19 ip-172-31-29-161 web: [2022-07-12 02:36:19 +0000] [9357] [INFO] Using worker: gthread
-Jul 12 02:36:19 ip-172-31-29-161 web: [2022-07-12 02:36:19 +0000] [9414] [INFO] Booting worker with pid: 9414
-Jul 12 03:28:32 ip-172-31-29-161 web: [2022-07-12 03:28:32 +0000] [9357] [INFO] Handling signal: term
-Jul 12 03:28:32 ip-172-31-29-161 web: [2022-07-11 20:28:32 -0700] [9414] [INFO] Worker exiting (pid: 9414)
-Jul 12 03:28:32 ip-172-31-29-161 web: [2022-07-12 03:28:32 +0000] [9357] [INFO] Shutting down: Master
-Jul 12 03:28:33 ip-172-31-29-161 web: [2022-07-12 03:28:33 +0000] [13003] [INFO] Starting gunicorn 20.1.0
-Jul 12 03:28:33 ip-172-31-29-161 web: [2022-07-12 03:28:33 +0000] [13003] [INFO] Listening at: http://127.0.0.1:8000 (13003)
-Jul 12 03:28:33 ip-172-31-29-161 web: [2022-07-12 03:28:33 +0000] [13003] [INFO] Using worker: gthread
-Jul 12 03:28:33 ip-172-31-29-161 web: [2022-07-12 03:28:33 +0000] [13057] [INFO] Booting worker with pid: 13057
-Jul 12 03:43:35 ip-172-31-29-161 web: [2022-07-12 03:43:35 +0000] [13003] [INFO] Handling signal: term
-Jul 12 03:43:35 ip-172-31-29-161 web: [2022-07-11 20:43:35 -0700] [13057] [INFO] Worker exiting (pid: 13057)
-Jul 12 03:43:36 ip-172-31-29-161 web: [2022-07-12 03:43:36 +0000] [13003] [INFO] Shutting down: Master
-Jul 12 03:43:36 ip-172-31-29-161 web: [2022-07-12 03:43:36 +0000] [14278] [INFO] Starting gunicorn 20.1.0
-Jul 12 03:43:36 ip-172-31-29-161 web: [2022-07-12 03:43:36 +0000] [14278] [INFO] Listening at: http://127.0.0.1:8000 (14278)
-Jul 12 03:43:36 ip-172-31-29-161 web: [2022-07-12 03:43:36 +0000] [14278] [INFO] Using worker: gthread
-Jul 12 03:43:36 ip-172-31-29-161 web: [2022-07-12 03:43:36 +0000] [14333] [INFO] Booting worker with pid: 14333
-Jul 12 03:47:24 ip-172-31-29-161 web: [2022-07-12 03:47:24 +0000] [14278] [INFO] Handling signal: term
-Jul 12 03:47:24 ip-172-31-29-161 web: [2022-07-11 20:47:24 -0700] [14333] [INFO] Worker exiting (pid: 14333)
-Jul 12 03:47:24 ip-172-31-29-161 web: [2022-07-12 03:47:24 +0000] [14278] [INFO] Shutting down: Master
-Jul 12 03:47:25 ip-172-31-29-161 web: [2022-07-12 03:47:25 +0000] [14958] [INFO] Starting gunicorn 20.1.0
-Jul 12 03:47:25 ip-172-31-29-161 web: [2022-07-12 03:47:25 +0000] [14958] [INFO] Listening at: http://127.0.0.1:8000 (14958)
-Jul 12 03:47:25 ip-172-31-29-161 web: [2022-07-12 03:47:25 +0000] [14958] [INFO] Using worker: gthread
-Jul 12 03:47:25 ip-172-31-29-161 web: [2022-07-12 03:47:25 +0000] [15015] [INFO] Booting worker with pid: 15015
-Jul 12 04:03:42 ip-172-31-29-161 web: [2022-07-12 04:03:42 +0000] [14958] [INFO] Handling signal: term
-Jul 12 04:03:43 ip-172-31-29-161 web: [2022-07-11 21:03:43 -0700] [15015] [INFO] Worker exiting (pid: 15015)
-Jul 12 04:03:43 ip-172-31-29-161 web: [2022-07-12 04:03:43 +0000] [14958] [INFO] Shutting down: Master
-Jul 12 04:03:43 ip-172-31-29-161 web: [2022-07-12 04:03:43 +0000] [16378] [INFO] Starting gunicorn 20.1.0
-Jul 12 04:03:43 ip-172-31-29-161 web: [2022-07-12 04:03:43 +0000] [16378] [INFO] Listening at: http://127.0.0.1:8000 (16378)
-Jul 12 04:03:43 ip-172-31-29-161 web: [2022-07-12 04:03:43 +0000] [16378] [INFO] Using worker: gthread
-Jul 12 04:03:43 ip-172-31-29-161 web: [2022-07-12 04:03:43 +0000] [16432] [INFO] Booting worker with pid: 16432
-Jul 12 06:36:34 ip-172-31-29-161 web: [2022-07-12 06:36:34 +0000] [16378] [INFO] Handling signal: term
-Jul 12 06:36:34 ip-172-31-29-161 web: [2022-07-11 23:36:34 -0700] [16432] [INFO] Worker exiting (pid: 16432)
-Jul 12 06:36:34 ip-172-31-29-161 web: [2022-07-12 06:36:34 +0000] [16378] [INFO] Shutting down: Master
-Jul 12 06:36:35 ip-172-31-29-161 web: [2022-07-12 06:36:35 +0000] [26323] [INFO] Starting gunicorn 20.1.0
-Jul 12 06:36:35 ip-172-31-29-161 web: [2022-07-12 06:36:35 +0000] [26323] [INFO] Listening at: http://127.0.0.1:8000 (26323)
-Jul 12 06:36:35 ip-172-31-29-161 web: [2022-07-12 06:36:35 +0000] [26323] [INFO] Using worker: gthread
-Jul 12 06:36:35 ip-172-31-29-161 web: [2022-07-12 06:36:35 +0000] [26375] [INFO] Booting worker with pid: 26375
-
-
-----------------------------------------
-/var/log/eb-engine.log
-----------------------------------------
-2022/07/12 06:36:33.782725 [INFO] Executing platform hooks in .platform/confighooks/predeploy/
-2022/07/12 06:36:33.782745 [INFO] The dir .platform/confighooks/predeploy/ does not exist
-2022/07/12 06:36:33.782749 [INFO] Finished running scripts in /var/app/staging/.platform/confighooks/predeploy
-2022/07/12 06:36:33.782755 [INFO] Executing instruction: stop X-Ray
-2022/07/12 06:36:33.782759 [INFO] stop X-Ray ...
-2022/07/12 06:36:33.782770 [INFO] Running command /bin/sh -c systemctl show -p PartOf xray.service
-2022/07/12 06:36:33.789853 [WARN] stopProcess Warning: process xray is not registered 
-2022/07/12 06:36:33.789872 [INFO] Running command /bin/sh -c systemctl stop xray.service
-2022/07/12 06:36:33.798476 [INFO] Executing instruction: stop proxy
-2022/07/12 06:36:33.798495 [INFO] Running command /bin/sh -c systemctl show -p PartOf httpd.service
-2022/07/12 06:36:33.803964 [WARN] deregisterProcess Warning: process httpd is not registered, skipping...
-
-2022/07/12 06:36:33.803979 [INFO] Running command /bin/sh -c systemctl show -p PartOf nginx.service
-2022/07/12 06:36:33.808448 [INFO] Running command /bin/sh -c systemctl is-active nginx.service
-2022/07/12 06:36:33.811839 [INFO] Running command /bin/sh -c systemctl show -p PartOf nginx.service
-2022/07/12 06:36:33.815897 [INFO] Running command /bin/sh -c systemctl stop nginx.service
-2022/07/12 06:36:33.839101 [INFO] Running command /bin/sh -c systemctl disable nginx.service
-2022/07/12 06:36:33.934230 [INFO] Running command /bin/sh -c systemctl daemon-reload
-2022/07/12 06:36:34.026177 [INFO] Running command /bin/sh -c systemctl reset-failed
-2022/07/12 06:36:34.030514 [INFO] Executing instruction: FlipApplication
-2022/07/12 06:36:34.030527 [INFO] Fetching environment variables...
-2022/07/12 06:36:34.030703 [INFO] Purge old process...
-2022/07/12 06:36:34.030721 [INFO] Running command /bin/sh -c systemctl stop eb-app.target
-2022/07/12 06:36:34.036687 [INFO] Running command /bin/sh -c systemctl show -p ConsistsOf eb-app.target | cut -d= -f2
-2022/07/12 06:36:34.041662 [INFO] web.service
-
-2022/07/12 06:36:34.041678 [INFO] Running command /bin/sh -c systemctl show -p PartOf web.service
-2022/07/12 06:36:34.045954 [INFO] Running command /bin/sh -c systemctl is-active web.service
-2022/07/12 06:36:34.049456 [INFO] Running command /bin/sh -c systemctl disable web.service
-2022/07/12 06:36:34.180410 [INFO] Removed symlink /etc/systemd/system/multi-user.target.wants/web.service.
-
-2022/07/12 06:36:34.180521 [INFO] Running command /bin/sh -c systemctl daemon-reload
-2022/07/12 06:36:34.306430 [INFO] Running command /bin/sh -c systemctl reset-failed
-2022/07/12 06:36:34.310891 [INFO] Removing /var/app/current/ if it exists
-2022/07/12 06:36:34.316900 [INFO] Renaming /var/app/staging/ to /var/app/current/
-2022/07/12 06:36:34.316924 [INFO] Register application processes...
-2022/07/12 06:36:34.316950 [INFO] Registering the proc: web
-
-2022/07/12 06:36:34.316968 [INFO] Running command /bin/sh -c systemctl show -p PartOf web.service
-2022/07/12 06:36:34.324713 [INFO] Running command /bin/sh -c systemctl daemon-reload
-2022/07/12 06:36:34.430973 [INFO] Running command /bin/sh -c systemctl reset-failed
-2022/07/12 06:36:34.439151 [INFO] Running command /bin/sh -c systemctl is-enabled eb-app.target
-2022/07/12 06:36:34.446386 [INFO] Running command /bin/sh -c systemctl enable eb-app.target
-2022/07/12 06:36:34.539009 [INFO] Running command /bin/sh -c systemctl start eb-app.target
-2022/07/12 06:36:34.544255 [INFO] Running command /bin/sh -c systemctl enable web.service
-2022/07/12 06:36:34.639221 [INFO] Created symlink from /etc/systemd/system/multi-user.target.wants/web.service to /etc/systemd/system/web.service.
-
-2022/07/12 06:36:34.639272 [INFO] Running command /bin/sh -c systemctl show -p PartOf web.service
-2022/07/12 06:36:34.644585 [INFO] Running command /bin/sh -c systemctl is-active web.service
-2022/07/12 06:36:34.648126 [INFO] Running command /bin/sh -c systemctl start web.service
-2022/07/12 06:36:34.666281 [INFO] Executing instruction: start X-Ray
-2022/07/12 06:36:34.666297 [INFO] X-Ray is not enabled.
-2022/07/12 06:36:34.666303 [INFO] Executing instruction: start proxy with new configuration
-2022/07/12 06:36:34.666322 [INFO] Running command /bin/sh -c /usr/sbin/nginx -t -c /var/proxy/staging/nginx/nginx.conf
-2022/07/12 06:36:34.684501 [INFO] nginx: the configuration file /var/proxy/staging/nginx/nginx.conf syntax is ok
-nginx: configuration file /var/proxy/staging/nginx/nginx.conf test is successful
-
-2022/07/12 06:36:34.684804 [INFO] Running command /bin/sh -c cp -rp /var/proxy/staging/nginx/* /etc/nginx
-2022/07/12 06:36:34.693703 [INFO] Running command /bin/sh -c systemctl show -p PartOf nginx.service
-2022/07/12 06:36:34.708397 [INFO] Running command /bin/sh -c systemctl daemon-reload
-2022/07/12 06:36:34.842789 [INFO] Running command /bin/sh -c systemctl reset-failed
-2022/07/12 06:36:34.850392 [INFO] Running command /bin/sh -c systemctl show -p PartOf nginx.service
-2022/07/12 06:36:34.861747 [INFO] Running command /bin/sh -c systemctl is-active nginx.service
-2022/07/12 06:36:34.870289 [INFO] Running command /bin/sh -c systemctl start nginx.service
-2022/07/12 06:36:34.940936 [INFO] Executing instruction: configureSqsd
-2022/07/12 06:36:34.940952 [INFO] This is a web server environment instance, skip configure sqsd daemon ...
-2022/07/12 06:36:34.940957 [INFO] Executing instruction: startSqsd
-2022/07/12 06:36:34.940960 [INFO] This is a web server environment instance, skip start sqsd daemon ...
-2022/07/12 06:36:34.940965 [INFO] Executing instruction: Track pids in healthd
-2022/07/12 06:36:34.940969 [INFO] This is an enhanced health env...
-2022/07/12 06:36:34.940982 [INFO] Running command /bin/sh -c systemctl show -p ConsistsOf aws-eb.target | cut -d= -f2
-2022/07/12 06:36:34.951605 [INFO] healthd.service nginx.service cfn-hup.service
-
-2022/07/12 06:36:34.951630 [INFO] Running command /bin/sh -c systemctl show -p ConsistsOf eb-app.target | cut -d= -f2
-2022/07/12 06:36:34.962949 [INFO] web.service
-
-2022/07/12 06:36:34.963105 [INFO] Executing instruction: RunConfigDeployPostDeployHooks
-2022/07/12 06:36:34.963119 [INFO] Executing platform hooks in .platform/confighooks/postdeploy/
-2022/07/12 06:36:34.963142 [INFO] The dir .platform/confighooks/postdeploy/ does not exist
-2022/07/12 06:36:34.963146 [INFO] Finished running scripts in /var/app/current/.platform/confighooks/postdeploy
-2022/07/12 06:36:34.963153 [INFO] Executing cleanup logic
-2022/07/12 06:36:34.963266 [INFO] CommandService Response: {"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"Engine execution has succeeded.","returncode":0,"events":[{"msg":"Instance deployment successfully generated a 'Procfile'.","timestamp":1657607792147,"severity":"INFO"},{"msg":"Instance deployment completed successfully.","timestamp":1657607794963,"severity":"INFO"}]}]}
-
-2022/07/12 06:36:34.964349 [INFO] Platform Engine finished execution on command: config-deploy
-
-2022/07/12 07:30:09.493361 [INFO] Starting...
-2022/07/12 07:30:09.493417 [INFO] Starting EBPlatform-PlatformEngine
-2022/07/12 07:30:09.493439 [INFO] reading event message file
-2022/07/12 07:30:09.493587 [INFO] Engine received EB command cfn-hup-exec
-
-2022/07/12 07:30:09.603993 [INFO] Running command /bin/sh -c /opt/aws/bin/cfn-get-metadata -s arn:aws:cloudformation:us-west-2:595277337971:stack/awseb-e-bbrfdmdvpm-stack/d64a7660-fda8-11ec-be9f-06c7d15633e9 -r AWSEBAutoScalingGroup --region us-west-2
-2022/07/12 07:30:09.928636 [INFO] Running command /bin/sh -c /opt/aws/bin/cfn-get-metadata -s arn:aws:cloudformation:us-west-2:595277337971:stack/awseb-e-bbrfdmdvpm-stack/d64a7660-fda8-11ec-be9f-06c7d15633e9 -r AWSEBBeanstalkMetadata --region us-west-2
-2022/07/12 07:30:10.230061 [INFO] checking whether command tail-log is applicable to this instance...
-2022/07/12 07:30:10.230075 [INFO] this command is applicable to the instance, thus instance should execute command
-2022/07/12 07:30:10.230079 [INFO] Engine command: (tail-log)
-
-2022/07/12 07:30:10.230152 [INFO] Executing instruction: GetTailLogs
-2022/07/12 07:30:10.230157 [INFO] Tail Logs...
-2022/07/12 07:30:10.230635 [INFO] Running command /bin/sh -c tail -n 100 /var/log/web.stdout.log
-2022/07/12 07:30:10.234076 [INFO] Running command /bin/sh -c tail -n 100 /var/log/eb-engine.log
-
-
-----------------------------------------
-/var/log/eb-hooks.log
-----------------------------------------
-
-
-----------------------------------------
 /var/log/nginx/access.log
 ----------------------------------------
-172.31.23.122 - - [12/Jul/2022:07:18:20 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:18:31 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:18:35 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:18:46 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:18:50 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:19:01 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:19:05 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:19:16 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:19:20 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:19:31 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:19:35 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:19:46 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:19:50 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:20:01 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:20:05 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:20:11 +0000] "POST / HTTP/1.1" 400 154 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" "135.125.244.48"
-172.31.23.122 - - [12/Jul/2022:07:20:12 +0000] "GET /.env HTTP/1.1" 400 154 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" "135.125.244.48"
-172.31.4.145 - - [12/Jul/2022:07:20:16 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:20:20 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:20:31 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:20:35 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:20:46 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:20:50 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:21:01 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:21:05 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:21:16 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:21:20 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:21:31 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:21:35 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:21:46 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:21:50 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:22:01 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:22:05 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:22:16 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:22:20 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:22:31 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:22:35 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:22:46 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:22:50 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:23:02 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:23:05 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:23:17 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:23:20 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:23:32 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:23:35 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:23:47 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:23:50 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:24:02 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:24:05 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:24:17 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:24:20 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:24:32 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:24:35 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:24:47 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:24:50 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:25:02 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:25:05 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:25:17 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:25:20 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:25:28 +0000] "GET / HTTP/1.1" 400 154 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" "185.7.214.104"
-172.31.4.145 - - [12/Jul/2022:07:25:32 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:25:35 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:25:47 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:25:50 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:26:02 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:26:05 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:26:17 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:26:20 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:26:32 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:26:35 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:26:47 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:26:50 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:27:02 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:27:05 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:27:17 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:27:20 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:27:32 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:27:35 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:27:47 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:27:50 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:28:02 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:28:05 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:28:17 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:28:20 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:28:32 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:28:35 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:28:47 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:28:50 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:29:02 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:29:03 +0000] "GET / HTTP/1.1" 400 154 "-" "Go-http-client/1.1" "2.56.11.65"
-172.31.23.122 - - [12/Jul/2022:07:29:05 +0000] "GET / HTTP/1.1" 400 154 "-" "Go-http-client/2.0" "2.56.11.65"
-172.31.23.122 - - [12/Jul/2022:07:29:05 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:29:17 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:29:20 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:29:32 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:29:35 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:29:47 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:29:50 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.4.145 - - [12/Jul/2022:07:30:02 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
-172.31.23.122 - - [12/Jul/2022:07:30:05 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:35:39 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:35:43 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:35:54 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:35:58 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:36:09 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:36:13 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:36:24 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:36:28 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:36:39 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:36:43 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:36:54 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:36:58 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:37:09 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:37:13 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:37:24 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:37:28 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:37:39 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:37:43 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:37:54 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:37:58 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:38:09 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:38:13 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:38:24 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:38:28 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:38:39 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:38:43 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:38:54 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:38:58 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:39:09 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:39:13 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:39:24 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:39:28 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:39:39 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:39:43 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:39:54 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:39:58 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:40:09 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:40:13 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:40:24 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:40:28 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:40:39 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:40:43 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:40:54 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:40:58 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:41:09 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:41:13 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:41:24 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:41:28 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:41:40 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:41:43 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:41:55 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:41:58 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:42:10 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:42:13 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:42:25 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:42:28 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:42:40 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:42:43 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:42:55 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:42:58 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:43:10 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:43:13 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:43:25 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:43:28 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:43:33 +0000] "GET / HTTP/1.1" 302 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" "24.4.153.136"
+172.31.23.122 - - [12/Jul/2022:14:43:33 +0000] "GET /login/?next=/ HTTP/1.1" 500 145 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" "24.4.153.136"
+172.31.23.122 - - [12/Jul/2022:14:43:34 +0000] "GET /favicon.ico HTTP/1.1" 302 0 "https://admin.eensy.cc/login/?next=/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" "24.4.153.136"
+172.31.23.122 - - [12/Jul/2022:14:43:34 +0000] "GET /login/?next=/favicon.ico HTTP/1.1" 500 145 "https://admin.eensy.cc/login/?next=/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" "24.4.153.136"
+172.31.4.145 - - [12/Jul/2022:14:43:40 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:43:43 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:43:55 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:43:58 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:44:10 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:44:13 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:44:25 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:44:28 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:44:40 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:44:43 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:44:55 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:44:58 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:45:10 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:45:13 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:45:25 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:45:28 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:45:40 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:45:43 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:45:55 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:45:58 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:46:10 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:46:13 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:46:25 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:46:28 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:46:40 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:46:44 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:46:55 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:46:59 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:47:10 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:47:14 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.4.145 - - [12/Jul/2022:14:47:25 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
+172.31.23.122 - - [12/Jul/2022:14:47:29 +0000] "GET / HTTP/1.1" 400 154 "-" "ELB-HealthChecker/2.0" "-"
 
 
 ----------------------------------------
@@ -423,5 +208,220 @@ nginx: configuration file /var/proxy/staging/nginx/nginx.conf test is successful
 2022/07/09 01:58:28 [error] 4813#4813: *71 open() "/var/app/current/static/admin/js/nav_sidebar.js" failed (2: No such file or directory), client: 172.31.4.145, server: , request: "GET /static/admin/js/nav_sidebar.js HTTP/1.1", host: "admin.eensy.cc", referrer: "https://admin.eensy.cc/login/?next=/"
 2022/07/09 02:54:10 [error] 7335#7335: *529 open() "/var/app/current/static/.env.example" failed (2: No such file or directory), client: 172.31.4.145, server: , request: "GET //static/.env.example HTTP/1.1", host: "34.208.146.142"
 2022/07/09 02:54:31 [error] 7335#7335: *525 open() "/var/app/current/static/.env" failed (2: No such file or directory), client: 172.31.4.145, server: , request: "GET //static/.env HTTP/1.1", host: "34.208.146.142"
+
+
+----------------------------------------
+/var/log/web.stdout.log
+----------------------------------------
+Jul  8 21:50:45 ip-172-31-29-161 web: [2022-07-08 21:50:45 +0000] [21457] [INFO] Booting worker with pid: 21457
+Jul  8 22:23:29 ip-172-31-29-161 web: [2022-07-08 22:23:29 +0000] [21402] [INFO] Handling signal: term
+Jul  8 22:23:30 ip-172-31-29-161 web: [2022-07-08 15:23:30 -0700] [21457] [INFO] Worker exiting (pid: 21457)
+Jul  8 22:23:30 ip-172-31-29-161 web: [2022-07-08 22:23:30 +0000] [21402] [INFO] Shutting down: Master
+Jul  8 22:23:31 ip-172-31-29-161 web: [2022-07-08 22:23:31 +0000] [23785] [INFO] Starting gunicorn 20.1.0
+Jul  8 22:23:31 ip-172-31-29-161 web: [2022-07-08 22:23:31 +0000] [23785] [INFO] Listening at: http://127.0.0.1:8000 (23785)
+Jul  8 22:23:31 ip-172-31-29-161 web: [2022-07-08 22:23:31 +0000] [23785] [INFO] Using worker: gthread
+Jul  8 22:23:31 ip-172-31-29-161 web: [2022-07-08 22:23:31 +0000] [23840] [INFO] Booting worker with pid: 23840
+Jul  9 01:09:54 ip-172-31-29-161 web: [2022-07-09 01:09:54 +0000] [23785] [INFO] Handling signal: term
+Jul  9 01:09:55 ip-172-31-29-161 web: [2022-07-08 18:09:55 -0700] [23840] [INFO] Worker exiting (pid: 23840)
+Jul  9 01:09:55 ip-172-31-29-161 web: [2022-07-09 01:09:55 +0000] [23785] [INFO] Shutting down: Master
+Jul  9 01:09:55 ip-172-31-29-161 web: [2022-07-09 01:09:55 +0000] [1709] [INFO] Starting gunicorn 20.1.0
+Jul  9 01:09:55 ip-172-31-29-161 web: [2022-07-09 01:09:55 +0000] [1709] [INFO] Listening at: http://127.0.0.1:8000 (1709)
+Jul  9 01:09:55 ip-172-31-29-161 web: [2022-07-09 01:09:55 +0000] [1709] [INFO] Using worker: gthread
+Jul  9 01:09:55 ip-172-31-29-161 web: [2022-07-09 01:09:55 +0000] [1764] [INFO] Booting worker with pid: 1764
+Jul  9 01:54:11 ip-172-31-29-161 web: [2022-07-09 01:54:11 +0000] [1709] [INFO] Handling signal: term
+Jul  9 01:54:11 ip-172-31-29-161 web: [2022-07-08 18:54:11 -0700] [1764] [INFO] Worker exiting (pid: 1764)
+Jul  9 01:54:11 ip-172-31-29-161 web: [2022-07-09 01:54:11 +0000] [1709] [INFO] Shutting down: Master
+Jul  9 01:54:12 ip-172-31-29-161 web: [2022-07-09 01:54:12 +0000] [4772] [INFO] Starting gunicorn 20.1.0
+Jul  9 01:54:12 ip-172-31-29-161 web: [2022-07-09 01:54:12 +0000] [4772] [INFO] Listening at: http://127.0.0.1:8000 (4772)
+Jul  9 01:54:12 ip-172-31-29-161 web: [2022-07-09 01:54:12 +0000] [4772] [INFO] Using worker: gthread
+Jul  9 01:54:12 ip-172-31-29-161 web: [2022-07-09 01:54:12 +0000] [4827] [INFO] Booting worker with pid: 4827
+Jul  9 02:25:11 ip-172-31-29-161 web: [2022-07-09 02:25:11 +0000] [4772] [INFO] Handling signal: term
+Jul  9 02:25:12 ip-172-31-29-161 web: [2022-07-08 19:25:12 -0700] [4827] [INFO] Worker exiting (pid: 4827)
+Jul  9 02:25:12 ip-172-31-29-161 web: [2022-07-09 02:25:12 +0000] [4772] [INFO] Shutting down: Master
+Jul  9 02:25:12 ip-172-31-29-161 web: [2022-07-09 02:25:12 +0000] [7291] [INFO] Starting gunicorn 20.1.0
+Jul  9 02:25:12 ip-172-31-29-161 web: [2022-07-09 02:25:12 +0000] [7291] [INFO] Listening at: http://127.0.0.1:8000 (7291)
+Jul  9 02:25:12 ip-172-31-29-161 web: [2022-07-09 02:25:12 +0000] [7291] [INFO] Using worker: gthread
+Jul  9 02:25:12 ip-172-31-29-161 web: [2022-07-09 02:25:12 +0000] [7346] [INFO] Booting worker with pid: 7346
+Jul 10 00:29:06 ip-172-31-29-161 web: [2022-07-10 00:29:06 +0000] [7291] [INFO] Handling signal: term
+Jul 10 00:29:06 ip-172-31-29-161 web: [2022-07-09 17:29:06 -0700] [7346] [INFO] Worker exiting (pid: 7346)
+Jul 10 00:29:06 ip-172-31-29-161 web: [2022-07-10 00:29:06 +0000] [7291] [INFO] Shutting down: Master
+Jul 10 00:29:07 ip-172-31-29-161 web: [2022-07-10 00:29:07 +0000] [22626] [INFO] Starting gunicorn 20.1.0
+Jul 10 00:29:07 ip-172-31-29-161 web: [2022-07-10 00:29:07 +0000] [22626] [INFO] Listening at: http://127.0.0.1:8000 (22626)
+Jul 10 00:29:07 ip-172-31-29-161 web: [2022-07-10 00:29:07 +0000] [22626] [INFO] Using worker: gthread
+Jul 10 00:29:07 ip-172-31-29-161 web: [2022-07-10 00:29:07 +0000] [22680] [INFO] Booting worker with pid: 22680
+Jul 10 00:38:11 ip-172-31-29-161 web: [2022-07-10 00:38:11 +0000] [22626] [INFO] Handling signal: term
+Jul 10 00:38:11 ip-172-31-29-161 web: [2022-07-09 17:38:11 -0700] [22680] [INFO] Worker exiting (pid: 22680)
+Jul 10 00:38:12 ip-172-31-29-161 web: [2022-07-10 00:38:12 +0000] [22626] [INFO] Shutting down: Master
+Jul 10 00:38:12 ip-172-31-29-161 web: [2022-07-10 00:38:12 +0000] [23566] [INFO] Starting gunicorn 20.1.0
+Jul 10 00:38:12 ip-172-31-29-161 web: [2022-07-10 00:38:12 +0000] [23566] [INFO] Listening at: http://127.0.0.1:8000 (23566)
+Jul 10 00:38:12 ip-172-31-29-161 web: [2022-07-10 00:38:12 +0000] [23566] [INFO] Using worker: gthread
+Jul 10 00:38:12 ip-172-31-29-161 web: [2022-07-10 00:38:12 +0000] [23619] [INFO] Booting worker with pid: 23619
+Jul 10 19:36:26 ip-172-31-29-161 web: [2022-07-10 19:36:26 +0000] [23566] [INFO] Handling signal: term
+Jul 10 19:36:26 ip-172-31-29-161 web: [2022-07-10 12:36:26 -0700] [23619] [INFO] Worker exiting (pid: 23619)
+Jul 10 19:36:26 ip-172-31-29-161 web: [2022-07-10 19:36:26 +0000] [23566] [INFO] Shutting down: Master
+Jul 10 19:36:27 ip-172-31-29-161 web: [2022-07-10 19:36:27 +0000] [27702] [INFO] Starting gunicorn 20.1.0
+Jul 10 19:36:27 ip-172-31-29-161 web: [2022-07-10 19:36:27 +0000] [27702] [INFO] Listening at: http://127.0.0.1:8000 (27702)
+Jul 10 19:36:27 ip-172-31-29-161 web: [2022-07-10 19:36:27 +0000] [27702] [INFO] Using worker: gthread
+Jul 10 19:36:27 ip-172-31-29-161 web: [2022-07-10 19:36:27 +0000] [27759] [INFO] Booting worker with pid: 27759
+Jul 12 02:36:18 ip-172-31-29-161 web: [2022-07-12 02:36:18 +0000] [27702] [INFO] Handling signal: term
+Jul 12 02:36:19 ip-172-31-29-161 web: [2022-07-11 19:36:19 -0700] [27759] [INFO] Worker exiting (pid: 27759)
+Jul 12 02:36:19 ip-172-31-29-161 web: [2022-07-12 02:36:19 +0000] [27702] [INFO] Shutting down: Master
+Jul 12 02:36:19 ip-172-31-29-161 web: [2022-07-12 02:36:19 +0000] [9357] [INFO] Starting gunicorn 20.1.0
+Jul 12 02:36:19 ip-172-31-29-161 web: [2022-07-12 02:36:19 +0000] [9357] [INFO] Listening at: http://127.0.0.1:8000 (9357)
+Jul 12 02:36:19 ip-172-31-29-161 web: [2022-07-12 02:36:19 +0000] [9357] [INFO] Using worker: gthread
+Jul 12 02:36:19 ip-172-31-29-161 web: [2022-07-12 02:36:19 +0000] [9414] [INFO] Booting worker with pid: 9414
+Jul 12 03:28:32 ip-172-31-29-161 web: [2022-07-12 03:28:32 +0000] [9357] [INFO] Handling signal: term
+Jul 12 03:28:32 ip-172-31-29-161 web: [2022-07-11 20:28:32 -0700] [9414] [INFO] Worker exiting (pid: 9414)
+Jul 12 03:28:32 ip-172-31-29-161 web: [2022-07-12 03:28:32 +0000] [9357] [INFO] Shutting down: Master
+Jul 12 03:28:33 ip-172-31-29-161 web: [2022-07-12 03:28:33 +0000] [13003] [INFO] Starting gunicorn 20.1.0
+Jul 12 03:28:33 ip-172-31-29-161 web: [2022-07-12 03:28:33 +0000] [13003] [INFO] Listening at: http://127.0.0.1:8000 (13003)
+Jul 12 03:28:33 ip-172-31-29-161 web: [2022-07-12 03:28:33 +0000] [13003] [INFO] Using worker: gthread
+Jul 12 03:28:33 ip-172-31-29-161 web: [2022-07-12 03:28:33 +0000] [13057] [INFO] Booting worker with pid: 13057
+Jul 12 03:43:35 ip-172-31-29-161 web: [2022-07-12 03:43:35 +0000] [13003] [INFO] Handling signal: term
+Jul 12 03:43:35 ip-172-31-29-161 web: [2022-07-11 20:43:35 -0700] [13057] [INFO] Worker exiting (pid: 13057)
+Jul 12 03:43:36 ip-172-31-29-161 web: [2022-07-12 03:43:36 +0000] [13003] [INFO] Shutting down: Master
+Jul 12 03:43:36 ip-172-31-29-161 web: [2022-07-12 03:43:36 +0000] [14278] [INFO] Starting gunicorn 20.1.0
+Jul 12 03:43:36 ip-172-31-29-161 web: [2022-07-12 03:43:36 +0000] [14278] [INFO] Listening at: http://127.0.0.1:8000 (14278)
+Jul 12 03:43:36 ip-172-31-29-161 web: [2022-07-12 03:43:36 +0000] [14278] [INFO] Using worker: gthread
+Jul 12 03:43:36 ip-172-31-29-161 web: [2022-07-12 03:43:36 +0000] [14333] [INFO] Booting worker with pid: 14333
+Jul 12 03:47:24 ip-172-31-29-161 web: [2022-07-12 03:47:24 +0000] [14278] [INFO] Handling signal: term
+Jul 12 03:47:24 ip-172-31-29-161 web: [2022-07-11 20:47:24 -0700] [14333] [INFO] Worker exiting (pid: 14333)
+Jul 12 03:47:24 ip-172-31-29-161 web: [2022-07-12 03:47:24 +0000] [14278] [INFO] Shutting down: Master
+Jul 12 03:47:25 ip-172-31-29-161 web: [2022-07-12 03:47:25 +0000] [14958] [INFO] Starting gunicorn 20.1.0
+Jul 12 03:47:25 ip-172-31-29-161 web: [2022-07-12 03:47:25 +0000] [14958] [INFO] Listening at: http://127.0.0.1:8000 (14958)
+Jul 12 03:47:25 ip-172-31-29-161 web: [2022-07-12 03:47:25 +0000] [14958] [INFO] Using worker: gthread
+Jul 12 03:47:25 ip-172-31-29-161 web: [2022-07-12 03:47:25 +0000] [15015] [INFO] Booting worker with pid: 15015
+Jul 12 04:03:42 ip-172-31-29-161 web: [2022-07-12 04:03:42 +0000] [14958] [INFO] Handling signal: term
+Jul 12 04:03:43 ip-172-31-29-161 web: [2022-07-11 21:03:43 -0700] [15015] [INFO] Worker exiting (pid: 15015)
+Jul 12 04:03:43 ip-172-31-29-161 web: [2022-07-12 04:03:43 +0000] [14958] [INFO] Shutting down: Master
+Jul 12 04:03:43 ip-172-31-29-161 web: [2022-07-12 04:03:43 +0000] [16378] [INFO] Starting gunicorn 20.1.0
+Jul 12 04:03:43 ip-172-31-29-161 web: [2022-07-12 04:03:43 +0000] [16378] [INFO] Listening at: http://127.0.0.1:8000 (16378)
+Jul 12 04:03:43 ip-172-31-29-161 web: [2022-07-12 04:03:43 +0000] [16378] [INFO] Using worker: gthread
+Jul 12 04:03:43 ip-172-31-29-161 web: [2022-07-12 04:03:43 +0000] [16432] [INFO] Booting worker with pid: 16432
+Jul 12 06:36:34 ip-172-31-29-161 web: [2022-07-12 06:36:34 +0000] [16378] [INFO] Handling signal: term
+Jul 12 06:36:34 ip-172-31-29-161 web: [2022-07-11 23:36:34 -0700] [16432] [INFO] Worker exiting (pid: 16432)
+Jul 12 06:36:34 ip-172-31-29-161 web: [2022-07-12 06:36:34 +0000] [16378] [INFO] Shutting down: Master
+Jul 12 06:36:35 ip-172-31-29-161 web: [2022-07-12 06:36:35 +0000] [26323] [INFO] Starting gunicorn 20.1.0
+Jul 12 06:36:35 ip-172-31-29-161 web: [2022-07-12 06:36:35 +0000] [26323] [INFO] Listening at: http://127.0.0.1:8000 (26323)
+Jul 12 06:36:35 ip-172-31-29-161 web: [2022-07-12 06:36:35 +0000] [26323] [INFO] Using worker: gthread
+Jul 12 06:36:35 ip-172-31-29-161 web: [2022-07-12 06:36:35 +0000] [26375] [INFO] Booting worker with pid: 26375
+Jul 12 07:45:06 ip-172-31-29-161 web: [2022-07-12 07:45:06 +0000] [26323] [INFO] Handling signal: term
+Jul 12 07:45:06 ip-172-31-29-161 web: [2022-07-12 00:45:06 -0700] [26375] [INFO] Worker exiting (pid: 26375)
+Jul 12 07:45:06 ip-172-31-29-161 web: [2022-07-12 07:45:06 +0000] [26323] [INFO] Shutting down: Master
+Jul 12 07:45:07 ip-172-31-29-161 web: [2022-07-12 07:45:07 +0000] [30885] [INFO] Starting gunicorn 20.1.0
+Jul 12 07:45:07 ip-172-31-29-161 web: [2022-07-12 07:45:07 +0000] [30885] [INFO] Listening at: http://127.0.0.1:8000 (30885)
+Jul 12 07:45:07 ip-172-31-29-161 web: [2022-07-12 07:45:07 +0000] [30885] [INFO] Using worker: gthread
+Jul 12 07:45:07 ip-172-31-29-161 web: [2022-07-12 07:45:07 +0000] [30940] [INFO] Booting worker with pid: 30940
+Jul 12 07:54:51 ip-172-31-29-161 web: {'short_url': 'Test_2', 'long_url': 'https://www.facebook.com/'}
+
+
+----------------------------------------
+/var/log/eb-engine.log
+----------------------------------------
+2022/07/12 07:45:05.813201 [INFO] Finished running scripts in /var/app/staging/.platform/hooks/predeploy
+2022/07/12 07:45:05.813207 [INFO] Executing instruction: stop X-Ray
+2022/07/12 07:45:05.813211 [INFO] stop X-Ray ...
+2022/07/12 07:45:05.813222 [INFO] Running command /bin/sh -c systemctl show -p PartOf xray.service
+2022/07/12 07:45:05.819877 [WARN] stopProcess Warning: process xray is not registered 
+2022/07/12 07:45:05.819895 [INFO] Running command /bin/sh -c systemctl stop xray.service
+2022/07/12 07:45:05.828239 [INFO] Executing instruction: stop proxy
+2022/07/12 07:45:05.828261 [INFO] Running command /bin/sh -c systemctl show -p PartOf httpd.service
+2022/07/12 07:45:05.833935 [WARN] deregisterProcess Warning: process httpd is not registered, skipping...
+
+2022/07/12 07:45:05.833955 [INFO] Running command /bin/sh -c systemctl show -p PartOf nginx.service
+2022/07/12 07:45:05.838498 [INFO] Running command /bin/sh -c systemctl is-active nginx.service
+2022/07/12 07:45:05.841991 [INFO] Running command /bin/sh -c systemctl show -p PartOf nginx.service
+2022/07/12 07:45:05.846130 [INFO] Running command /bin/sh -c systemctl stop nginx.service
+2022/07/12 07:45:05.871338 [INFO] Running command /bin/sh -c systemctl disable nginx.service
+2022/07/12 07:45:05.975462 [INFO] Running command /bin/sh -c systemctl daemon-reload
+2022/07/12 07:45:06.076705 [INFO] Running command /bin/sh -c systemctl reset-failed
+2022/07/12 07:45:06.081176 [INFO] Executing instruction: FlipApplication
+2022/07/12 07:45:06.081195 [INFO] Fetching environment variables...
+2022/07/12 07:45:06.081378 [INFO] Purge old process...
+2022/07/12 07:45:06.081398 [INFO] Running command /bin/sh -c systemctl stop eb-app.target
+2022/07/12 07:45:06.087861 [INFO] Running command /bin/sh -c systemctl show -p ConsistsOf eb-app.target | cut -d= -f2
+2022/07/12 07:45:06.092856 [INFO] web.service
+
+2022/07/12 07:45:06.092876 [INFO] Running command /bin/sh -c systemctl show -p PartOf web.service
+2022/07/12 07:45:06.099647 [INFO] Running command /bin/sh -c systemctl is-active web.service
+2022/07/12 07:45:06.103408 [INFO] Running command /bin/sh -c systemctl disable web.service
+2022/07/12 07:45:06.214935 [INFO] Removed symlink /etc/systemd/system/multi-user.target.wants/web.service.
+
+2022/07/12 07:45:06.215056 [INFO] Running command /bin/sh -c systemctl daemon-reload
+2022/07/12 07:45:06.358864 [INFO] Running command /bin/sh -c systemctl reset-failed
+2022/07/12 07:45:06.363204 [INFO] Removing /var/app/current/ if it exists
+2022/07/12 07:45:06.364442 [INFO] Renaming /var/app/staging/ to /var/app/current/
+2022/07/12 07:45:06.364467 [INFO] Register application processes...
+2022/07/12 07:45:06.364478 [INFO] Registering the proc: web
+
+2022/07/12 07:45:06.364491 [INFO] Running command /bin/sh -c systemctl show -p PartOf web.service
+2022/07/12 07:45:06.378109 [INFO] Running command /bin/sh -c systemctl daemon-reload
+2022/07/12 07:45:06.494747 [INFO] Running command /bin/sh -c systemctl reset-failed
+2022/07/12 07:45:06.501811 [INFO] Running command /bin/sh -c systemctl is-enabled eb-app.target
+2022/07/12 07:45:06.510071 [INFO] Running command /bin/sh -c systemctl enable eb-app.target
+2022/07/12 07:45:06.606221 [INFO] Running command /bin/sh -c systemctl start eb-app.target
+2022/07/12 07:45:06.616849 [INFO] Running command /bin/sh -c systemctl enable web.service
+2022/07/12 07:45:06.727630 [INFO] Created symlink from /etc/systemd/system/multi-user.target.wants/web.service to /etc/systemd/system/web.service.
+
+2022/07/12 07:45:06.727662 [INFO] Running command /bin/sh -c systemctl show -p PartOf web.service
+2022/07/12 07:45:06.733232 [INFO] Running command /bin/sh -c systemctl is-active web.service
+2022/07/12 07:45:06.736817 [INFO] Running command /bin/sh -c systemctl start web.service
+2022/07/12 07:45:06.756636 [INFO] Executing instruction: start X-Ray
+2022/07/12 07:45:06.756653 [INFO] X-Ray is not enabled.
+2022/07/12 07:45:06.756658 [INFO] Executing instruction: start proxy with new configuration
+2022/07/12 07:45:06.756679 [INFO] Running command /bin/sh -c /usr/sbin/nginx -t -c /var/proxy/staging/nginx/nginx.conf
+2022/07/12 07:45:06.774064 [INFO] nginx: the configuration file /var/proxy/staging/nginx/nginx.conf syntax is ok
+nginx: configuration file /var/proxy/staging/nginx/nginx.conf test is successful
+
+2022/07/12 07:45:06.774322 [INFO] Running command /bin/sh -c cp -rp /var/proxy/staging/nginx/* /etc/nginx
+2022/07/12 07:45:06.780458 [INFO] Running command /bin/sh -c systemctl show -p PartOf nginx.service
+2022/07/12 07:45:06.793757 [INFO] Running command /bin/sh -c systemctl daemon-reload
+2022/07/12 07:45:06.928156 [INFO] Running command /bin/sh -c systemctl reset-failed
+2022/07/12 07:45:06.935985 [INFO] Running command /bin/sh -c systemctl show -p PartOf nginx.service
+2022/07/12 07:45:06.947442 [INFO] Running command /bin/sh -c systemctl is-active nginx.service
+2022/07/12 07:45:06.957155 [INFO] Running command /bin/sh -c systemctl start nginx.service
+2022/07/12 07:45:07.029113 [INFO] Executing instruction: configureSqsd
+2022/07/12 07:45:07.029129 [INFO] This is a web server environment instance, skip configure sqsd daemon ...
+2022/07/12 07:45:07.029134 [INFO] Executing instruction: startSqsd
+2022/07/12 07:45:07.029138 [INFO] This is a web server environment instance, skip start sqsd daemon ...
+2022/07/12 07:45:07.029142 [INFO] Executing instruction: Track pids in healthd
+2022/07/12 07:45:07.029147 [INFO] This is an enhanced health env...
+2022/07/12 07:45:07.029160 [INFO] Running command /bin/sh -c systemctl show -p ConsistsOf aws-eb.target | cut -d= -f2
+2022/07/12 07:45:07.040832 [INFO] healthd.service nginx.service cfn-hup.service
+
+2022/07/12 07:45:07.040861 [INFO] Running command /bin/sh -c systemctl show -p ConsistsOf eb-app.target | cut -d= -f2
+2022/07/12 07:45:07.052233 [INFO] web.service
+
+2022/07/12 07:45:07.052409 [INFO] Executing instruction: RunAppDeployPostDeployHooks
+2022/07/12 07:45:07.052423 [INFO] Executing platform hooks in .platform/hooks/postdeploy/
+2022/07/12 07:45:07.052446 [INFO] The dir .platform/hooks/postdeploy/ does not exist
+2022/07/12 07:45:07.052450 [INFO] Finished running scripts in /var/app/current/.platform/hooks/postdeploy
+2022/07/12 07:45:07.052457 [INFO] Executing cleanup logic
+2022/07/12 07:45:07.052553 [INFO] CommandService Response: {"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"Engine execution has succeeded.","returncode":0,"events":[{"msg":"Instance deployment successfully generated a 'Procfile'.","timestamp":1657611902599,"severity":"INFO"},{"msg":"Instance deployment completed successfully.","timestamp":1657611907052,"severity":"INFO"}]}]}
+
+2022/07/12 07:45:07.053475 [INFO] Platform Engine finished execution on command: app-deploy
+
+2022/07/12 14:47:37.381749 [INFO] Starting...
+2022/07/12 14:47:37.381794 [INFO] Starting EBPlatform-PlatformEngine
+2022/07/12 14:47:37.381815 [INFO] reading event message file
+2022/07/12 14:47:37.381961 [INFO] Engine received EB command cfn-hup-exec
+
+2022/07/12 14:47:37.471769 [INFO] Running command /bin/sh -c /opt/aws/bin/cfn-get-metadata -s arn:aws:cloudformation:us-west-2:595277337971:stack/awseb-e-bbrfdmdvpm-stack/d64a7660-fda8-11ec-be9f-06c7d15633e9 -r AWSEBAutoScalingGroup --region us-west-2
+2022/07/12 14:47:37.764204 [INFO] Running command /bin/sh -c /opt/aws/bin/cfn-get-metadata -s arn:aws:cloudformation:us-west-2:595277337971:stack/awseb-e-bbrfdmdvpm-stack/d64a7660-fda8-11ec-be9f-06c7d15633e9 -r AWSEBBeanstalkMetadata --region us-west-2
+2022/07/12 14:47:38.064781 [INFO] checking whether command tail-log is applicable to this instance...
+2022/07/12 14:47:38.064795 [INFO] this command is applicable to the instance, thus instance should execute command
+2022/07/12 14:47:38.064799 [INFO] Engine command: (tail-log)
+
+2022/07/12 14:47:38.065089 [INFO] Executing instruction: GetTailLogs
+2022/07/12 14:47:38.065102 [INFO] Tail Logs...
+2022/07/12 14:47:38.065412 [INFO] Running command /bin/sh -c tail -n 100 /var/log/nginx/access.log
+2022/07/12 14:47:38.068997 [INFO] Running command /bin/sh -c tail -n 100 /var/log/nginx/error.log
+2022/07/12 14:47:38.070750 [INFO] Running command /bin/sh -c tail -n 100 /var/log/web.stdout.log
+2022/07/12 14:47:38.072414 [INFO] Running command /bin/sh -c tail -n 100 /var/log/eb-engine.log
+
+
+----------------------------------------
+/var/log/eb-hooks.log
+----------------------------------------
 
 
