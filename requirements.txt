@@ -3,4 +3,3 @@ psycopg2-binary
 django-hosts
 awsebcli
 python-dotenv
-whitenoise
