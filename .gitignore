@@ -2,6 +2,7 @@
 **.sqlite3
 **/__pycache__/
 **/.git/
+config
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*

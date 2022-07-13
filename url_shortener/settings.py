@@ -17,7 +17,6 @@ import dotenv
 import json
 import requests
 import subprocess
-import mimetypes
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
