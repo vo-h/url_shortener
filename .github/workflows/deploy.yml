@@ -33,3 +33,4 @@ jobs:
           echo "aws_access_key_id = $AWS_ACCESS_KEY_ID" >> ./config
           echo "aws_secret_access_key = $AWS_SECRET_ACCESS_KEY" >> ./config
           eb deploy url-shortener-dev
+          rm ./config

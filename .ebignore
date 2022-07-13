@@ -1,9 +1,12 @@
 .env
 **.sqlite3
 **/__pycache__/
+**/.git/
 config
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/config.yml
 !.elasticbeanstalk/*.global.yml
+

@@ -17,7 +17,6 @@ def index(request):
                 "long_url": request.POST["long_url"]
             }
 
-            print(context)
             return HttpResponse(template.render(context, request))
     else:
         form = URLForm()
